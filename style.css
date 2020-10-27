@@ -1,0 +1,91 @@
+body {
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+h1, h2 {	
+	font-family: 'Lobster', cursive;
+	letter-spacing: 1.5px;	
+}
+h1 {
+	font-size: 70px;
+	text-align: center;
+}
+h2 {
+	font-size: 50px;
+	text-align: left;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+.btn-white {
+	background-color: white;
+	color: black;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-white:hover {
+	background-color: black;
+	color: white;
+}
+#intro p {
+	margin-bottom: 60px;
+}
+#picture-profile {
+	max-width:50%;
+  	max-height:50%;
+  	border-radius: 50%;
+}
+.picture-wines {
+	max-width:65%;
+  	max-height:65%;
+}
+.picture-cat {
+	max-width:50%;
+  	max-height:50%;
+}
+.box-blue {
+	background: #B1BFCA;
+	color: #FFFFFF;
+	height: 700px;
+	padding: 100px;
+}
+.box-white {
+	background: #FFFFFF;
+	color:#000000;
+	height: 700px;
+	padding: 100px;
+}
+.container {
+	width: 1400px;
+	margin: 40px auto;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: white;
+}
+.list-inline i:hover {
+	font-size: 50px;
+	color: black;
+}
+/*
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+*/
